@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+
+  <main>
+      <div class="box"></div>
+      <div class="woman">
+        <div class="innerimg">
+        </div>
+      </div>
+      <div class="card">
+        <!-- image -->
+          <div class="outerimg">
+            <div class="innerimg">
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- content accordion -->
+          <div class="info">
+            <h1>FAQ</h1>
+            <!-- 1 -->
+            <div class="accordion">
+              <p class="btnacd" onclick="openarticle(event)">
+                How many team members can I invite? 
+                <img src="images/icon-arrow-down.svg" alt="down">
+              </p>
+              <p class="content-accordion">
+                You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.
+              </p>
+            </div>
+            <!-- 2 -->
+            <div class="accordion">
+              <p class="btnacd" onclick="openarticle(event)">
+                What is the maximum file upload size? 
+                <img src="images/icon-arrow-down.svg" alt="down">
+              </p>
+              <p class="content-accordion">
+                No more than 2GB. All files in your account must fit your allotted storage space.
+              </p>
+            </div>
+            <!-- 3 -->
+            <div class="accordion">
+              <p class="btnacd" onclick="openarticle(event)">
+                How do I reset my password?
+                <img src="images/icon-arrow-down.svg" alt="down">
+              </p>
+              <p class="content-accordion">
+                Click “Forgot password” from the login page or “Change password” from your profile page.
+                A reset link will be emailed to you.
+              </p>
+            </div>
+          <!-- 4 -->
+            <div class="accordion">
+              <p class="btnacd" onclick="openarticle(event)">
+                Can I cancel my subscription?
+                <img src="images/icon-arrow-down.svg" alt="down">
+              </p>
+              <p class="content-accordion">
+                Yes! Send us a message and we’ll process your request no questions asked.
+              </p>
+            </div>
+              <!-- 5 -->
+            <div class="accordion">
+              <p class="btnacd" onclick="openarticle(event)">
+                Do you provide additional support?
+                <img src="images/icon-arrow-down.svg" alt="down">
+              </p>
+              <p class="content-accordion">
+                Chat and email support is available 24/7. Phone lines are open during normal business hours.
+              </p>
+            </div>
+          </div>
+          <!-- end here -->
+      </div>
+  </main>
+
+
+  <script src="/js/activebtn.js"></script>
+</body>
+</html>
